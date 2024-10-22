@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+html{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.on-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+
+.on-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
